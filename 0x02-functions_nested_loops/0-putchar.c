@@ -1,16 +1,19 @@
-#include <_putchar.h>
+include "main.h"
 /**
-* main - debugging example
-* Return: 0
+*main - Entry point
+*
+*Return: Always 0 (ok)
 */
 int main(void)
 {
-char *holberton = "Holberton";
-while (*holberton)
-{
-_putchar(*holberton);
-holberton++;
-}
+_putchar(_);
+_putchar('p');
+_putchar('u');
+_putchar('t');
+_putchar('c');
+_putchar('h');
+_putchar('a');
+_putchar('r');
 _putchar('\n');
 return (0);
 }
