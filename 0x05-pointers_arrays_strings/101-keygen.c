@@ -40,7 +40,7 @@ break;
 }
 }
 }
-printf("%s", password);
+printf("%");
 return (0);
 }
 
